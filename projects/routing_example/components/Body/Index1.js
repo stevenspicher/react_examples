@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { useHistory } from "react-router-dom";
 
 const Index1 = (location) => {
     const history = useHistory();
@@ -16,7 +16,7 @@ const Index1 = (location) => {
                 Go back
             </button>
 
-            <p>You were redirected from {location.state.from}</p>
+            {/* <p>You were redirected from {location.state.from}</p> */}
         </>
     );
 }

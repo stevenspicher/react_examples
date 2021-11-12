@@ -6,7 +6,7 @@ const Home = ({location}) => {
     return (
         <>
             <p className="sidebar">Welcome to this site </p>
-            <p> You were redirected from {location.state.from}</p>
+            {/* <p> You were redirected from {location.state.from}</p> */}
         </>
     );
 }
