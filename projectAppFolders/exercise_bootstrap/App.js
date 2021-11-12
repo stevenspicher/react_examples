@@ -4,13 +4,13 @@ import {Container, Row, Col, Nav, ListGroup, Table } from 'react-bootstrap'
 
 const Menu = () => {
   return (
-  <H1>Test</H1>
+  <h1>Test</h1>
   )
 }
 
 const Content = () => {
   return (
-  <H1>test</H1>
+  <h1>test</h1>
 )
 }
 const Main = () =>{ return (

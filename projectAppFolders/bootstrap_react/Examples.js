@@ -56,7 +56,6 @@ function Examples() {
     {/* you can set the number of Column to span on specified devices: (xs, sm, md, lg, xl, xxl)  
           <RB.Col  lg={6} className="border">set to lg={6}</RB.Col>
           <RB.Col xxl={1} xl={2} lg={3} md={4} sm={5} xs={6} className="border">3</RB.Col>
-
       you can set an offset to place gaps within the Row (number = amount of "cells" out of 12 to skip)
           <RB.Col md={{span: 2, offset: 2 }}className="border">2</RB.Col>
           */}
@@ -202,3 +201,4 @@ return (
 
 
 export default Examples
+
