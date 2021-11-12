@@ -6,5 +6,5 @@ read -p 'name of project to create?  ' foldervar
 echo
 echo creating $foldervar 
 
-mkdir ../../projectAppFolders/$foldervar/
-cp -r ../src/App/* ../../projectAppfolders/$foldervar/
+mkdir ../projects/$foldervar/
+cp -r ../src/App/* ../projects/$foldervar/

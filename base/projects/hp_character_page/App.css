@@ -1,0 +1,29 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/images.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cardframe {
+  padding-top: 5%;
+  
+}
+.banner {
+  font-family: 'Harry Potter', sans-serif;
+  color: white;
+  font-size: 150px;
+}
