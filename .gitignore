@@ -1,3 +1,6 @@
+#we need to ignore the constant changes to App:
+src/App
+
 # Logs
 logs
 *.log
