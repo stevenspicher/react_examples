@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useHistory } from "react-router-dom";
+import React from 'react';
 
 const IndexBanner = () => {
     return (

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import CharacterSetup from "./CharacterSetup";
 import './App.css'
 

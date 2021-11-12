@@ -1,3 +1,5 @@
+import React from 'react';
+
 import fullMenu from '../assets/menu'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Card } from 'react-bootstrap'

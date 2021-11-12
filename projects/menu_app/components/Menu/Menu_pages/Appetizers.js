@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Button } from 'react-bootstrap'
 import { Container, Row, Col } from 'react-bootstrap'
 const Appetizers = ({ menu, handleChange }) => {

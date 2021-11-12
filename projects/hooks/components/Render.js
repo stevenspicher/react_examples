@@ -1,7 +1,5 @@
-import { useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 
-
-import { useState } from 'react';
 
 const Wrapper = () => {
     const [count, setCount] = useState(0);

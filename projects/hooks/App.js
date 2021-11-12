@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import {Stack} from 'react-bootstrap'
 import LessText from './components/Trim';

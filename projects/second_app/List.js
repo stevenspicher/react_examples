@@ -1,4 +1,5 @@
 import Toast from 'react-bootstrap/Toast';
+import React from 'react';
 
 function List() {
     let infoObj = {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import DisplayChar from "./DisplayCharacter.js"
 let charUrl = "http://hp-api.herokuapp.com/api/characters"
 

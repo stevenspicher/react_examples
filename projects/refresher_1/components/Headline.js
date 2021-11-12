@@ -1,3 +1,4 @@
+import React from 'react';
 
 const Headline = ({ headline }) => <h1>Hello from {headline}!</h1>;
 

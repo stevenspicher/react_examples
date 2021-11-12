@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Input = ({ value, onChangeInput, children }) => (
     <label>
       {children}

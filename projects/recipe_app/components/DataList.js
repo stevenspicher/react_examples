@@ -1,3 +1,5 @@
+import React from 'react';
+
 const DataList = ({ info }) => {
     console.log(info)
     return (
