@@ -13,7 +13,7 @@ The folder structure of the base install has been altered slightly:
 3. `npm start` in top directory to start server
 
 
- 
+ npm
 
 ## Scripts
 **To run scripts - command line from inside scripts folder, run the script preceded by "./"  (This will auto-complete with TAB)**

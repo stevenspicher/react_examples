@@ -43,5 +43,3 @@ const handleChange = (item, price) => {
     </>
   );
 }
-
-export default App;
