@@ -1,5 +1,5 @@
-import{ Form, Modal, Container, Button } from 'react-bootstrap'
-import { useState, useEffect} from 'react'
+import { Form, Modal, Container, Button } from 'react-bootstrap'
+import React, { useState, useEffect} from 'react'
 
 /******************************************
  * INSTALL INSTRUCTIONS TO USE THIS ADMIN PAGE IN THE BLOG*

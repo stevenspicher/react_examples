@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Stack gap={3}>
-        <LessText maxLength={16}/>
+        <LessText />
          <StepTracker /> 
         <ListOfThings />
          <LoginForm />
