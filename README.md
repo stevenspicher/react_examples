@@ -3,22 +3,24 @@
 
 This project will allow you to switch quickly between lecture examples, breakout exercises, etc without cloning multiple projects. 
 The folder structure of the base install has been altered slightly: 
-1. A new App/ folder has been created inside src/
+1. There is no App folder inside src/ after the initial install. It is created during './load.sh' to clean up gitignore issues. 
+  **this means npm start will not work out of the box! keep reading**
 2. index.js now imports App from './App/App';
 3. There are two new folders: /scripts and /projects.
  
 ## Installation
 1. `npm install` as normal
 2. Mac users: in top directory run: `chmod +x scripts/*`
-3. `npm start` in top directory to start server
+3. `./load.sh` to choose the react app to load. (see below for more info)
+4. `npm start` to start server
 
 
- npm
+ 
 
 ## Scripts
 **To run scripts - command line from inside scripts folder, run the script preceded by "./"  (This will auto-complete with TAB)**
 
-- `./load.sh` - copies contents of project/'project name' into base/src/App/ folder 
+- `./load.sh` - creates src/App and copies contents of project/'project name' into it 
   -  have to type the project name completely and correctly. Does NOT autocomplete with TAB
   -  `load.sh` while server is running will switch the server to the selected project - no need to re-run `npm start`
 
