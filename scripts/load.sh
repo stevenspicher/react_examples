@@ -7,4 +7,5 @@ done
 read -p 'which project folder?  ' foldervar
 echo
 echo moving $foldervar
+mkdir ..src/App/
 cp -r ../projects/$foldervar/* ../src/App/ 
