@@ -1,5 +1,5 @@
 # #we need to ignore the constant changes to App:
-src/App/
+src/App/*
 
 
 # Logs
