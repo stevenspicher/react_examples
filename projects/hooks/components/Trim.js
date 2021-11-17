@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
-let text = "you fit into me like a hook into an eye... a fish hook... an open eye - MARGARET ATWOOD"
+let text = "Java is to JavaScript what Car is to Carpet - Chris Heilmann"
+let maxLength = 21
 
-function LessText({  maxLength }) {
+function LessText() {
   // Create a piece of state, and initialize it to `true`
   // `hidden` will hold the current value of the state,
   // and `setHidden` will let us change it

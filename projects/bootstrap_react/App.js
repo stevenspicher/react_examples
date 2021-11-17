@@ -21,12 +21,12 @@ const App = () => {
 
          
 
-      {/* <h1>Bootstrap React Grip Layout</h1> */}
+      <h1>Bootstrap React Grip Layout</h1>
       {/* The grid is divided into 12 vertical sections 
     If no widths are specified, Columns are divided equally within the Container.  */}
 
 
-      {/* <RB.Row className="border">
+      <RB.Row className="border">
         <h2>auto sized RB.Columns</h2>
         <RB.Col className="border">1</RB.Col> 
         <RB.Col className="border">2</RB.Col> 
@@ -40,19 +40,19 @@ const App = () => {
         <RB.Col className="border">10</RB.Col>
         <RB.Col className="border">11</RB.Col>
         <RB.Col className="border">12</RB.Col>
-      </RB.Row> */}
-      {/* <RB.Row  >
+      </RB.Row>
+      <RB.Row  >
         <RB.Col className="border">1</RB.Col>
         <RB.Col className="border">2</RB.Col>
         <RB.Col className="border">3</RB.Col>
-      </RB.Row> */}
-      {/* <RB.Row  >
+      </RB.Row>
+      <RB.Row  >
         <RB.Col className="border">1</RB.Col>
         <RB.Col className="border">2</RB.Col>
         <RB.Col className="border">3</RB.Col>
         <RB.Col className="border">4</RB.Col>
         <RB.Col className="border">5</RB.Col>
-      </RB.Row> */}
+      </RB.Row>
 
 
       {/* you can set the number of Column to span on specified devices: (xs, sm, md, lg, xl, xxl)  
@@ -62,17 +62,17 @@ const App = () => {
             <RB.Col md={{span: 2, offset: 2 }}className="border">2</RB.Col>
             */}
 
-      {/* <h3>Setting one RB.Column width</h3>
+      {/* <h3>Setting one Column width</h3>
       <RB.Row>
         <RB.Col className="border">1</RB.Col>
         <RB.Col className="border">2</RB.Col>
         <RB.Col className="border">3</RB.Col>
       </RB.Row> */}
 
-      {/* Row lets you specify RB.Column widths across 5 breakpoint sizes (xs, sm, md, lg, xl, xxl)
+      {/* Row lets you specify Column widths across 5 breakpoint sizes (xs, sm, md, lg, xl, xxl)
           <RB.Row xs={2} md={4} lg={6}> */}
 
-      {/* <h3>Setting RB.Column width using RB.Row</h3>
+      {/* <h3>Setting Column width using RB.Row</h3>
       <RB.Row xs={6}>
         <RB.Col className="border">1</RB.Col>
         <RB.Col className="border">2</RB.Col>
@@ -81,7 +81,7 @@ const App = () => {
 
       {/* Adding vertical items using Stack */}
 
-      {/* <h3>Adding items using RB.Stack</h3>
+      {/* <h3>Adding items using Stack</h3>
       <RB.Stack gap={3}>
         <div className="border">First item</div>
         <div className="border">Second item</div>

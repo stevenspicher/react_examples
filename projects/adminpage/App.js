@@ -1,4 +1,4 @@
-import { useState} from 'react'
+import React, { useState} from 'react'
 import {Card, Button, CardGroup, Container, Col, Row} from 'react-bootstrap';
 import defaultContent from './components/content'; //all the information we had to create
 

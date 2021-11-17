@@ -2,7 +2,7 @@ import React from 'react';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import info from './components/data.jsx';
+import info from './components/data';
 import Footer from './components/Footer';
 
 

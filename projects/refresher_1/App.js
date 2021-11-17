@@ -4,9 +4,13 @@ import React from 'react';
   /* Just a basic component*/
 
   function App() {
+
+   
     const greeting = 'Hello from Casper!!!';
      return (
-     <h1>{greeting}</h1>
+ 
+
+     <h1>{greeting} (uncomment code for examples)</h1>
      )
   }
 
