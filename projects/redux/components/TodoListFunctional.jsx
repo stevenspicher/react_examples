@@ -1,4 +1,4 @@
-import store from './store';
+
 import React, { useState } from 'react'
 
 const TodoListFunctional = () => {

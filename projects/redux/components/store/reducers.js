@@ -1,25 +1,36 @@
-// 1 create a default state
+// 1 Create a default state.
 
-const defaultState ={
-    inputValue: 'Write Something....',
+import { ADD_ITEM, CHANGE_INPUT, DELETE_ITEM } from "../../constants/actionTypes";
+
+const defaultState = {
+    inputValue: 'Write something',
     list: [
-        'Have a meeting',
-        'Have Lunch',
-        'play tennis'
-    ]
-}
+        'Walk dog 2:00',
+        'Meeting 4:00',
+        'Watch movie 8:00',
+    ],
+};
 
-// 2 create a function
+// 2 Create a function
 
-const fn =(state = defaultState, action)=> {
-    console.log(state, action)
-    if (action.type === 'CHANGE_INPUT'){
-       let newState = JSON.parse(JSON.stringify(state))
-       newState.inputValue=action.value
-       return newState
-    }
-    return state
-}
+const reducers = (state = defaultState, action) => {
+    switch (action.type) {
+        case CHANGE_INPUT:
+            let newInputState = JSON.parse(JSON.stringify(state));
+            newInputState.inputValue = action.value;
+            return newInputState;
+        case ADD_ITEM:
+            let newAddItemState = JSON.parse(JSON.stringify(state));
+            newAddItemState.list.push(newAddItemState.inputValue);
+            newAddItemState.inputValue = '';
+            return newAddItemState;
+        case DELETE_ITEM:
+            let newDeleteItemState = JSON.parse(JSON.stringify(state));
+            newDeleteItemState.list.splice(action.index, 1);
+            return newDeleteItemState;
+        default:
+            return state;
+    };
+};
 
-
-export default fn
+export default reducers;

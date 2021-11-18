@@ -1,5 +1,4 @@
 // 3 Create a store
-
 import { createStore } from "redux";
 
 // 4 Import reducer and add it to our store.
